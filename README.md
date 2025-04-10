@@ -3,7 +3,7 @@
 python -m venv venv 
 source venv/bin/activate 
 pip install --upgrade pip 
-pip install numpy scipy h5py, ipykernel, qiskit, qiskit_addon_sqd
+pip install numpy scipy h5py ipykernel qiskit qiskit_addon_sqd
 ipython kernel install --user --name=venv
 git clone git@github.com:nogaki/pyscf.git
 cd pyscf/pyscf/lib/
